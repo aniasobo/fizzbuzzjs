@@ -13,3 +13,9 @@ fizzBuzz.prototype.game = function(num) {
     return num
   }
 }
+
+let bla = new fizzBuzz();
+
+for (let i = 1; i <= 100; i++) {
+  console.log(bla.game(i));
+}
